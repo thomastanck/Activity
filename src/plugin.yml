@@ -1,0 +1,16 @@
+name: Activity
+main: me.tomys.Activity.Activity
+version: 0.1
+commands:
+    activity:
+        description: Displays your Activity
+        usage: /activity
+    setMultiplier:
+        description: Sets the multiplier for a certain type of Activity
+        usage: /setMultiplier <type> <value> or /setMul <type> <value>
+    setMul:
+        description: Sets the multiplier for a certain type of Activity
+        usage: /setMultiplier <type> <value> or /setMul <type> <value>
+    setInterval:
+        description: Sets interval in milliseconds between income.
+        usage: /setInterval <interval in milliseconds>
